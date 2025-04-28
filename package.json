@@ -1,0 +1,41 @@
+{
+  "name": "next-route-schemas",
+  "version": "0.2.0",
+  "description": "Schema integration for Next.js App Router",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nextjs",
+    "schema",
+    "seo",
+    "json-ld",
+    "structured-data",
+    "app-router"
+  ],
+  "author": "Syed Ali Naqi Hasni <engr.syedalinaqihasni@example.com>",
+  "license": "ISC",
+  "peerDependencies": {
+    "next": ">=13.4.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "dependencies": {
+    "schema-dts": "^1.1.2",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "typescript": "^5.2.2"
+  }
+}
