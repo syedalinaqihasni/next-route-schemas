@@ -1,6 +1,6 @@
 {
   "name": "next-route-schemas",
-  "version": "0.2.0",
+  "version": "1.0.1",
   "description": "Schema integration for Next.js App Router",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -9,6 +9,14 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syedalinaqihasni/next-route-schemas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/syedalinaqihasni/next-route-schemas/issues"
+  },
+  "homepage": "https://github.com/syedalinaqihasni/next-route-schemas#readme",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
